@@ -1,9 +1,7 @@
 
 ## Getting started
 ```
-sls create --name YOUR_PROJECT_NAME --template-url https://github.com/codingly-io/sls-base
-cd YOUR_PROJECT_NAME
-npm install
+  npm install
 ```
 ## Install middy
 
@@ -14,4 +12,17 @@ npm install @middy/core @middy/http-event-normalizer @middy/http-error-handler @
 
 npm install http-errors
 (https://www.npmjs.com/package/http-errors)
+
+## curl location
+
+If you need or want to execute curl in terminal:
+
+curl --location --request POST 'DOMAIN' \
+--header 'Content-Type: application/x-www-form-urlencoded' \
+--data-urlencode 'client_id=CLIENT_ID' \
+--data-urlencode 'username=USER_NAME' \
+--data-urlencode 'password=YOUR PASSWORD' \
+--data-urlencode 'grant_type=password' \
+--data-urlencode 'scope=openid'
+
 

@@ -1,6 +1,7 @@
 
 
 const schema = {
+  type: 'object',
   properties: {
     body: {
       type: 'object',

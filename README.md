@@ -25,4 +25,6 @@ curl --location --request POST 'DOMAIN' \
 --data-urlencode 'grant_type=password' \
 --data-urlencode 'scope=openid'
 
+## Documentation aws jdk
 
+https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/SES.html#sendEmail-property
